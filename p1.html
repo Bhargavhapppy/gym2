@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Freak</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url('bg.jpg');
+            color: white;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+
+        .left {
+
+            display: inline-block;
+            position: absolute;
+            left: 5px;
+            top: 15px;
+            font-family: 'Baloo Bhai 2', cursive;
+
+        }
+
+        .mid {
+
+            display: block;
+            width: 40%;
+            margin: 15px auto;
+
+
+
+
+        }
+
+        .right {
+
+            display: inline-block;
+            position: absolute;
+            right: 5px;
+            top: 15px;
+            font-family: 'Baloo Bhai 2', cursive;
+
+
+        }
+
+        .navbar {
+            display: inline-block;
+
+
+        }
+
+        li {
+            display: inline-block;
+            padding: 10px;
+            font-size: 24px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding-right: 30px;
+
+        }
+
+        .navbar li a:hover {
+            text-decoration: underline;
+        }
+
+        .navbar li a:active {
+            font-size: large;
+
+            color: rgba(239, 158, 158, 0.158);
+        }
+
+        .left img {
+            width: 80px;
+            filter: invert(100%);
+            margin-bottom: -20px;
+        }
+
+        .left div {
+            text-align: center;
+            font-family: 'Baloo Bhai 2', cursive;
+            font-size: 15px;
+
+        }
+
+        .btn {
+            margin: 15px 0px;
+            padding: 5px 15px;
+            background: transparent;
+            color: white;
+            font-size: 15px;
+            cursor: pointer;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+
+        .btn:hover {
+            background-color: grey;
+        }
+
+        .btn:active {
+            color: black;
+            font-size: small;
+        }
+
+        .contain {
+            border: 3px solid white;
+            margin: 55px 50px;
+            padding: 60px 90px;
+            width: 33%;
+            border-radius: 40px;
+        }
+
+        .formgroup input {
+            text-align: center;
+            display: block;
+            width: 75%;
+            padding: 0px 15px;
+            border: 2px solid black;
+            margin: 5px auto;
+            border-radius: 25px;
+            font-size: 18px;
+            font-family: 'Baloo Bhai 2', cursive;
+
+
+        }
+
+        h1 {
+            display: block;
+            width: 70%;
+            margin: 0px auto;
+
+        }
+
+        h2 {
+            display: block;
+            margin: 10px -55px;
+
+
+        }
+
+        .contain button {
+            display: block;
+            width: 30%;
+            margin: 10px auto;
+            font-family: 'Baloo Bhai 2', cursive;
+
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="gym.png" alt="">
+            <div>Fitness Freak</div>
+
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="home">Home</a> </li>
+                <li><a href="#" class="services">Service</a> </li>
+                <li><a href="#" class="about">About Us</a> </li>
+                <li><a href="#" class="contact">Contact Us</a> </li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+
+        </div>
+    </header>
+    <div class="contain">
+        <h1>The Best Gym Of Gwalior</h1>
+        <h2>Enroll Now :</h2>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="formgroup">
+                <input type="number" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="formgroup">
+                <input type="number" name="" placeholder="Enter Your Mobile No.">
+            </div>
+            <div class="formgroup">
+                <input type="email" name="" placeholder="Enter Your Email">
+            </div>
+
+            <button class="btn">Sumit</button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
